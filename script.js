@@ -12,7 +12,7 @@ prompt.get(
             console.log('==================================================')
             console.log('Biography: ' + response.data.graphql.user.biography)
             console.log('==================================================')
-            console.log('Profile Picture: ' + response.data.graphql.user.profile_pic_url)
+            console.log('Profile Picture: ' + response.data.graphql.user.profile_pic_url_hd)
             console.log('==================================================')
             console.log('End. Made by J/Bug')
         })
